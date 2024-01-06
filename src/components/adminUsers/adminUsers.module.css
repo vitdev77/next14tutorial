@@ -1,0 +1,55 @@
+.user {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 20px;
+  padding: 10px;
+  border-radius: 5px;
+  transition: all 0.2s ease;
+}
+
+.user:hover {
+  background-color: rgba(255, 255, 255, 0.02);
+}
+
+.userDetail {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.userInfo {
+  display: flex;
+  flex-direction: column;
+}
+
+.userEmail {
+  font-size: 12px;
+  color: gray;
+}
+
+.userButton {
+  padding: 5px 10px;
+  font-size: 12px;
+  background-color: red;
+  color: var(--text);
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-family: inherit;
+  /* display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px; */
+}
+
+.userButtonDisabled {
+  padding: 5px 10px;
+  font-size: 12px;
+  background-color: gray;
+  color: var(--text);
+  border: none;
+  border-radius: 5px;
+  cursor: not-allowed;
+  font-family: inherit;
+}

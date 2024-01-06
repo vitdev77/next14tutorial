@@ -1,0 +1,33 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.container input,
+.container select,
+.container textarea {
+  padding: 20px;
+  border-radius: 5px;
+  background-color: var(--bgSoft);
+  color: var(--text);
+  border: none;
+  outline: none;
+  font-size: inherit;
+  font-family: inherit;
+}
+
+.container button {
+  padding: 20px;
+  background-color: var(--btn);
+  color: var(--text);
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-family: inherit;
+  font-size: inherit;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}

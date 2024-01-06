@@ -1,0 +1,23 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  gap: 100px;
+}
+
+.row {
+  display: flex;
+  gap: 100px;
+}
+
+.col {
+  flex: 1;
+}
+
+.col h1 {
+  margin-bottom: 24px;
+}
+
+.col img {
+  object-fit: cover;
+  border-radius: 50%;
+}
